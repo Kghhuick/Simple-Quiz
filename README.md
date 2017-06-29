@@ -6,5 +6,5 @@
 *CSS3
 *VANILLA JAVASCRIPT
 
-###Click link below to start quiz :
+### Click link below to start quiz :
 https://kghhuick.github.io/Simple-Quiz/
