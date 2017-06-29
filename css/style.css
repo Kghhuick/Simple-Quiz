@@ -1,10 +1,10 @@
 * {
-margin: 0 auto;
-padding: 0 auto;
-box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
 }
 
-body{
+body {
   background-image: url("../images/img.jpeg");
   background-size: cover;
 }
@@ -12,14 +12,12 @@ body{
 #container {
   margin-top: 3%;
   text-align: center;
-  width:60%;
+  width: 60%;
   background-color: rgba(255, 100, 0, 0.7);
   margin-bottom: 3%;
-
-
 }
 
-h1{
+h1 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -27,14 +25,13 @@ h1{
 span {
   font-size: 20px;
 }
-h3{
+
+h3 {
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 25px;
   color: white;
-
 }
-
 
 p {
   display: inline-block;
@@ -42,11 +39,14 @@ p {
   color: white;
 }
 
-input[type="submit"]{
+input[type="submit"] {
   margin-top: 20px;
   background-color: red;
   border-radius: 10%;
   font-size: 20px;
   color: white;
+}
 
+#score {
+  height: 50px;
 }

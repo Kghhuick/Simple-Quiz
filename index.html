@@ -1,55 +1,106 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Fottball Quiz</title>
-    <link rel="stylesheet" href="css/style.css">
+
+<head>
+  <title>Fottball Quiz</title>
+  <link rel="stylesheet" href="css/style.css">
 
 
 
 
-	</head>
-	<body>
- <div id="container">
-	 <header>
- <h1>Simple Football Quiz </h1>
- <span>TEST YOUR KNOWLEDGE IN FOOTBALL HISTORY FUNDAMENTLS </span>
-  </header>
- <section>
- <div id="score">
+</head>
 
- </div>
- <section>
-  <form id ="quiz">
-  <h3> Which country won the first world championship in football ? </h3>
-   <input type="radio" name="inp1" value="a"> <p>Brazil</p> </input> </br>
-	 <input type="radio" name="inp1" value="b"><p> Poland </p> </input> </br>
-	 <input type="radio" name="inp1" value="c"> <p>Uruguay </p> </input> </br>
-	 <h3> Which coutry has won the most times in world championships ? </h3>
-   <input type="radio" name="inp2" value="a"> <p>Brazil</p>  </input> </br>
- 	 <input type="radio" name="inp2" value="b"> <p>France </p></input> </br>
- 	 <input type="radio" name="inp2" value="c"><p> Germany</p>  </input> </br>
-	 <h3> Who won worlds championships in 1990 ? </h3>
-	  <input type="radio" name="inp3" value="a"><p> Germany</p> </input> </br>
-	  <input type="radio" name="inp3" value="b"><p> France</p> </input> </br>
-	  <input type="radio" name="inp3" value="c"> <p>Italy</p> </input> </br>
-		<h3> How many times Real Madrid has won championship of the Spain ? </h3>
-     <input type="radio" name="inp4" value="a"> <p> 30 </p> </input> </br>
-  	 <input type="radio" name="inp4" value="b"><p> 22</p></input> </br>
-  	 <input type="radio" name="inp4" value="c"><p> 33</p> </input> </br>
-		 <h3>Who has scored the moast goals in football history ?</h3>
-	    <input type="radio" name="inp5" value="a"> <p>Pele</p>  </input> </br>
-	 	 <input type="radio" name="inp5" value="b"><p> Jozef Bican </p> </input> </br>
-	 	 <input type="radio" name="inp5" value="c"><p> Leo Messi</p> </input> </br>
+<body>
+  <div id="container">
+    <header>
+      <h1>Simple Football Quiz </h1>
+      <span>TEST YOUR KNOWLEDGE IN FOOTBALL HISTORY FUNDAMENTLS </span>
+    </header>
+    <section>
+      <div id="score">
 
-   <input type="submit" value="Check Answers">
-</form>
- </section>
-  
- </div>
+      </div>
+      <section>
+        <form id="quiz" name="quiz">
+          <h3> Which country won the first world championship in football ? </h3>
+
+          <input type="radio" name="inp1" value="b">
+          <p>Brazil</p>
+          </input>
+          </br>
+          <input type="radio" name="inp1" value="c">
+          <p> Poland </p>
+          </input>
+          </br>
+          <input type="radio" name="inp1" value="a">
+          <p>Uruguay </p>
+          </input>
+          </br>
+
+          <h3> Which coutry has won the most times in world championships ? </h3>
+          <input type="radio" name="inp2" value="a">
+          <p>Brazil</p>
+          </input>
+          </br>
+          <input type="radio" name="inp2" value="b">
+          <p>France </p>
+          </input>
+          </br>
+          <input type="radio" name="inp2" value="c">
+          <p> Germany</p>
+          </input>
+          </br>
+          <h3> Who won worlds championships in 1990 ? </h3>
+          <input type="radio" name="inp3" value="a">
+          <p> Germany</p>
+          </input>
+          </br>
+          <input type="radio" name="inp3" value="b">
+          <p> France</p>
+          </input>
+          </br>
+          <input type="radio" name="inp3" value="c">
+          <p>Italy</p>
+          </input>
+          </br>
+          <h3> How many times Real Madrid has won championship of the Spain ? </h3>
+          <input type="radio" name="inp4" value="a">
+          <p> 30 </p>
+          </input>
+          </br>
+          <input type="radio" name="inp4" value="b">
+          <p> 22</p>
+          </input>
+          </br>
+          <input type="radio" name="inp4" value="c">
+          <p> 33</p>
+          </input>
+          </br>
+          <h3>Who has scored the moast goals in football history ?</h3>
+          <input type="radio" name="inp5" value="c">
+          <p>Leo Messi</p>
+          </input>
+          </br>
+          <input type="radio" name="inp5" value="b">
+          <p> Jozef Bican </p>
+          </input>
+          </br>
+          <input type="radio" name="inp5" value="a">
+          <p> Pele</p>
+          </input>
+          </br>
+
+          <input id="check" type="submit" value="Check Answers">
+        </form>
+      </section>
+
+  </div>
 
 
 
 
-  <script src="js/app.js"> </script>
-	</body>
+  <script src="js/app.js">
+  </script>
+</body>
+
 </html>
