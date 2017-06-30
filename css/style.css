@@ -58,3 +58,8 @@ input[type="submit"] {
   font-size: 20px;
   color: white;
 }
+
+ h2{
+  color:red;
+  margin-top: 20px;
+ }

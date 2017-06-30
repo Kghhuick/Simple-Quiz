@@ -2,9 +2,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   let h = document.querySelector("#quiz");
 
+
+
+
   console.log(h);
 
   h.addEventListener("submit", function(event) {
+    event.preventDefault();
     var cnt = 0;
 
     var one = document.forms["quiz"]["inp1"].value;
@@ -48,9 +52,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
       return false;
     }
 
-    alert("YOU GOT" +
-      " " + cnt + " " + "CORRECT ANSWERS");
 
-  });
+
+const score = document.querySelector("#score h2");
+score.textContent =" YOUR RESULT IS" + " " + cnt;
+
+  });  
+
+
+
+
+
+
+
+
+
 
 });
